@@ -15,13 +15,12 @@ if afirmacion == 1:
         else:
             cliente_vip = int(input("¿Es cliente VIP? Ingrese opcion valida 1.SI 2.NO "))
             
-            
             if cliente_vip == 1:
                 descuento_vip = total_valor_producto*0.80
                 print("Gracias por su compra", nombre_cliente,
                 "El total de su compra es ", descuento_vip)
                 
-            else:
+            elif cliente_vip == 2 :
                 print("Gracias por su compra", nombre_cliente,"El total de su compra es ", total_valor_producto)
 if afirmacion == 2:
     print("Gracias por su venir", nombre_cliente)
